@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+
+body {
+    background-color: gray;
+    padding: 0px;
+    margin: 0px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    gap: 30px;
+    font-weight: 100;
+
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8
+}
+
+p {
+    margin: 0px;
+}
+
+
+.section-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0 130px 100px 130px;
+    background-color: #1F2937;
+    gap: 40px;
+}
+
+.section-1 .header, .section-1 .content-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    color: white;
+}
+
+.section-1 .header {
+    padding: 20px 0;
+}
+
+.section-1 .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.section-1 .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    line-height: 58px;
+}
+
+.section-1 .text {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.content-1 img {
+    max-width: 50%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+.content-1 div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.content-1 button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: 600;
+    padding: 10px 35px;
+    border-radius: 10px;
+    border: 0;
+    margin: 10px 0;
+}
+
+.content-1 {
+    gap: 40px;
+}
+
+.section-2 {
+    background-color: #F9FAF8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2 .header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    margin: 20px 0;
+}
+
+.section-2 .examples {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin: 0 0 50px 0;
+    /* gap: 55px */
+}
+
+.section-2 .example {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 125px;
+    flex-shrink: 0;
+}
+.section-2 .box {
+    border-radius: 15px;
+    border: 2px;
+    border-color: #3882F6;
+    border-style: solid;
+    height: 125px;
+    margin: 5px;
+}
+
+.section-2 .example p {
+    text-align: center;
+}
